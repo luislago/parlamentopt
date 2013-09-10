@@ -22,3 +22,4 @@ my_local_file.close #closes the file
 puts "Done"
 
 #ctl00_ctl13_g_8035397e_bdf3_4dc3_b9fb_8732bb699c12_ctl00_ucNome_rptContent_ctl01_lblText - this is the div where the complete name of the member of the parliament is available
+#this is still under construction, I want to automate most of the process and creat a cv file with all the info automatically
