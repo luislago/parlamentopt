@@ -17,7 +17,7 @@ my_local_file.write(remote_data.css("title").text) #copies the html <title> tag 
 my_local_file.write("
 	
 	")
-my_local_file.write(remote_data.css("div#ctl00_ctl13_g_8035397e_bdf3_4dc3_b9fb_8732bb699c12_ctl00_pnlDep").text) #copies all the text in this, because it's the most relevant for what I need.
+my_local_file.write(remote_data.css("div#ctl00_ctl13_g_8035397e_bdf3_4dc3_b9fb_8732bb699c12_ctl00_pnlDep").text) #copies all the text in this div, because it's the most relevant for what I need.
 my_local_file.close #closes the file 
 puts "Done"
 
