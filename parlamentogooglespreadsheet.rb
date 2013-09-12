@@ -22,7 +22,8 @@ remote_data = Nokogiri::HTML(open(remote_full_url))
 ws[2,1] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblNomeCompleto").text)
 ws[2,2] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblActividadePrincipal").text)
 ws[2,3] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblEstadoCivil").text)
-ws[2,4] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblCargo").text)
+ws[2,4] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblNomeConjuge").text)
+ws[2,6] = (remote_data.css("span#ctl00_ctl13_g_e4f66c46_a162_4329_83cb_3d7fe77e4b57_ctl00_lblCargo").text)
 
 #  
 ws.save()
